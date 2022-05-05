@@ -10,7 +10,7 @@ variable "name" {}
 
  variable "nodes_desired_size" {
    description = "The desired number of EC2 instances."
-   default     = 2
+   default     = 3
  }
 
  variable "nodes_max_size" {
@@ -20,7 +20,7 @@ variable "name" {}
 
  variable "nodes_min_size" {
    description = "The minimum number argo EC2 instances to run."
-   default     = 2
+   default     = 3
  }
 
  variable "tags" {
