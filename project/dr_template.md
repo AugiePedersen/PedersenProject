@@ -31,6 +31,20 @@ udacity-project-us-east-2a, Elastic IP addresses, us-east-2
 
 ### Descriptions
 More detailed descriptions of each asset identified above.
+udacity-tf-pedersen-west, S3 buckets are simply storage.  They are scalable and secure.  Can be used to store data, websites, applicatings.
+
+Ubuntu-Web, t3.micro, An EC2 Instance is a virtual server.  You select the cpu, cores, memory.  All this comes at a price and properly tailoring your selection can come at big savings.  Once you have this stood up you deploy your software and run from this instance.  Other instances can be on standby.
+
+
+ec2_sg, security group, There are several security groups mentioned above but they all perform the same function.  They act as virtual firewalls allowing traffict to flow to and from the resources they are associated with.
+
+
+udacity, key pairs, 
+Key pairs are the basic security keys that are used for access.  Once created it is downloaded and used for autentication.
+
+LoadBalancer, A load balancer acts to distribut the load accross available resources.  If the resources start to get overwhelmed it can spin up more.
+
+udacity-project-us-east-2a, Elastic IP addresses are used to remap ip addresses when needed.  If a failure occurs this IP can change and point to another instance.  
 
 ## DR Plan
 ### Pre-Steps:
